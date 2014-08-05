@@ -2,14 +2,14 @@
 
 Commands
 
-git add --all - Add all files to commit
-git config --global alias.s "status -s" - Shorthand for Git Status
-git config --global alias.lg "log --oneline --decorate --graph --all" - Shorthand for Git Log
-git branch - List branches
-git branch -a  - List all branches even remote
-git branch -m "feature_branch" Create new feature branch and move to branch
-git checkout feature_branch - Checkout remote branch
-git config --global color.ui true - Add colour to git status
+- git add --all - Add all files to commit
+- git config --global alias.s "status -s" - Shorthand for Git Status
+- git config --global alias.lg "log --oneline --decorate --graph --all" - Shorthand for Git Log
+- git branch - List branches
+- git branch -a  - List all branches even remote
+- git branch -m "feature_branch" Create new feature branch and move to branch
+- git checkout feature_branch - Checkout remote branch
+- git config --global color.ui true - Add colour to git status
 
 Do not commit directly to Master
 Use pull requests on the repo
