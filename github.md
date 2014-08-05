@@ -16,6 +16,7 @@
 - git rebase master - rebase the history tree agains master, this will make base as head of master
 - git branch -d feature_branch - Delete feature branch
 - git tag -a r1.0.0 -m "Lanched new feature" - Tag release and annotate message
+- git revert <commit> - Undoes past commit by creating new commit [non destructive]
 
 Do not commit directly to Master
 Use pull requests on the repo
