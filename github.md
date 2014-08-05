@@ -1,6 +1,6 @@
 **Github workflow**
 
-Commands
+***Commands***
 
 - git add --all - Add all files to commit
 - git config --global alias.s "status -s" - Shorthand for Git Status
@@ -10,6 +10,11 @@ Commands
 - git branch -m "feature_branch" Create new feature branch and move to branch
 - git checkout feature_branch - Checkout remote branch
 - git config --global color.ui true - Add colour to git status
+- git reset --keep master@{1} - Will reset last merge
+- git merge --no-ff feature_branch - Will force Git to do recursive merge
+- git reset --hard HEAD~1 - Reset last commit
+- git rebase master - rebase the history tree agains master, this will make base as head of master
+- git branch -d feature_branch - Delete feature branch
 
 Do not commit directly to Master
 Use pull requests on the repo
@@ -24,5 +29,7 @@ When you create a pull request you should be the person to Merge the request int
 Merge should only be completed once the other devs have given a +1
 
 Feature_branches should be between 1-5 days no longer and should be cxreated for single changes. Pull requests should be started to early in the process to start the communication
+
+For changes which will take longer to developer we should use feature_flags
 
  
