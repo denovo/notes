@@ -15,6 +15,7 @@
 - git reset --hard HEAD~1 - Reset last commit
 - git rebase master - rebase the history tree agains master, this will make base as head of master
 - git branch -d feature_branch - Delete feature branch
+- git tag -a r1.0.0 -m "Lanched new feature" - Tag release and annotate message
 
 Do not commit directly to Master
 Use pull requests on the repo
@@ -31,5 +32,7 @@ Merge should only be completed once the other devs have given a +1
 Feature_branches should be between 1-5 days no longer and should be cxreated for single changes. Pull requests should be started to early in the process to start the communication
 
 For changes which will take longer to developer we should use feature_flags
+
+Tag each release to production using the tag command (See above) - This will allow us to roll back to previous release or create hotfix branches
 
  
