@@ -19,6 +19,9 @@ When changes are ready to be merged in Master create a pull request to start a c
 
 The pull request should be from the feature_branch into Master.
 Use a single repo for collaboration
+When you create a pull request you should be the person to Merge the request into Master - See video http://newrelic.com/resources/past-webinars
+
+Merge should only be completed once the other devs have given a +1
 
 Feature_branches should be between 1-5 days no longer and should be cxreated for single changes. Pull requests should be started to early in the process to start the communication
 
