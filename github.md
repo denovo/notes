@@ -1,5 +1,11 @@
 **Github workflow**
 
+Commands
+
+git add --all - Add all files to commit
+git config --global alias.s "status -s" - Shorthand for Git Status
+git config --global alias.lg "log --oneline --decorate --graph --all" - Shorthand for Git Log
+
 Do not commit directly to Master
 Use pull requests on the repo
 Use a feature branch for any changes - repo/feature_branch
