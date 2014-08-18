@@ -5,7 +5,8 @@ Go to the folder where your .pem file is stored. You can retrieve the .pem file 
 Launch the terminal app and run the  command
 
 cd /folder/where/perm/file/stored/
-ssh-add filename.pem
+
+ssh-add ual_test.pem
 
 This should work fine most of the time and you should get a response similar to this.
 
@@ -23,12 +24,13 @@ ec2-user@xx.xx.xx.xx:22: No such file or directory
 
 To fix it, set the appropriate permissions.
 
-chmod 400 filename.pem
+chmod 400 ual_test.pem
 
 Now, it’s time to connect to ec2 server.
 
-ssh-add filename.pem
-ssh ec2-user@xx.xx.xx.xx:22
+ssh-add Ual_test.pem
+
+ssh ec2-user@ec2-54-77-4-157.eu-west-1.compute.amazonaws.com
 
 If evrything works fine, then you should see this response on your terminal screen:
 
