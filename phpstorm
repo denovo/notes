@@ -1,0 +1,10 @@
+** Mamp settings **
+
+zend_extension="/Applications/MAMP/bin/php/php5.3.29/lib/php/extensions/no-debug-non-zts-20090626/xdebug.so"
+xdebug.remote_enable=1
+xdebug.remote_host=localhost
+xdebug.remote_port=9001
+xdebug.remote_autostart=1
+xdebug.profiler_enable=0
+xdebug.idekey = "PHPSTORM"
+xdebug.profiler_output_dir="/Applications/MAMP/tmp"
