@@ -1,4 +1,15 @@
 ** Mamp settings **
+Check PHP version and alias in your bash file
+
+which php
+php --info
+
+alias php ="/Applications/MAMP/bin/php/php5.3.29/bin"
+
+Update PHP conf file in your MAMP folder 
+sudo vi /Applications/MAMP/bin/php/php5.3.29/conf/php.ini
+
+Add the following settings
 
 zend_extension="/Applications/MAMP/bin/php/php5.3.29/lib/php/extensions/no-debug-non-zts-20090626/xdebug.so"
 xdebug.remote_enable=1
