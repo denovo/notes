@@ -17,6 +17,9 @@
 - git branch -d feature_branch - Delete feature branch
 - git tag -a r1.0.0 -m "Lanched new feature" - Tag release and annotate message
 - git revert <commit> - Undoes past commit by creating new commit [non destructive]
+- git config --global core.autocrlf input - configure line endings correctly on Mac
+- git config --global rerere.enabled true - records all fixes to merge conflicts
+- git gc - Clean up local git
 
 Do not commit directly to Master
 Use pull requests on the repo
