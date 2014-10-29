@@ -9,6 +9,12 @@ alias php ="/Applications/MAMP/bin/php/php5.3.29/bin"
 Update PHP conf file in your MAMP folder 
 sudo vi /Applications/MAMP/bin/php/php5.3.29/conf/php.ini
 
+**Setting up XDebug**
+
+Xdebug can be installed from their website - http://xdebug.org/docs/install
+Alternatively if you are using Mamp 3, it comes as a module.
+
+
 Add the following settings
 
 zend_extension="/Applications/MAMP/bin/php/php5.3.29/lib/php/extensions/no-debug-non-zts-20090626/xdebug.so"
