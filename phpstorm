@@ -1,8 +1,13 @@
 ** Mamp settings **
 Check PHP version and alias in your bash file
+(update your php settings to use mamp's PHP and use the same version of PHP as you have set in mamp)
 
 which php
 php --info
+
+vi ~/.zshrc  (edit this file if you are using ohmyzsh in terminal) 
+
+check for this line in your bash profile or .zshrc
 
 alias php ="/Applications/MAMP/bin/php/php5.3.29/bin"
 
@@ -15,7 +20,7 @@ Xdebug can be installed from their website - http://xdebug.org/docs/install
 Alternatively if you are using Mamp 3, it comes as a module.
 
 
-Add the following settings to the end of php.ini
+Add the following settings to the end of your php.ini file 
 
 zend_extension="/Applications/MAMP/bin/php/php5.3.29/lib/php/extensions/no-debug-non-zts-20090626/xdebug.so"
 xdebug.remote_enable=1
