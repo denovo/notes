@@ -1,8 +1,13 @@
 ** Mamp settings **
 Check PHP version and alias in your bash file
+(check that you are using the same version of php as you have set in mamp for the default version)
 
 which php
+
 php --info
+
+If using zsh in your terminal edit this file:
+vi ~/.zshrc 
 
 alias php ="/Applications/MAMP/bin/php/php5.3.29/bin"
 
@@ -13,7 +18,6 @@ sudo vi /Applications/MAMP/bin/php/php5.3.29/conf/php.ini
 
 Xdebug can be installed from their website - http://xdebug.org/docs/install
 Alternatively if you are using Mamp 3, it comes as a module.
-
 
 Add the following settings
 
